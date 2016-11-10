@@ -1,5 +1,5 @@
 body {
-  margin: 10px 0px 5px 0px;
+  margin: 0px;
   font-family: sans-serif, arial;
   color: #343333;
   background-color: white;
@@ -11,11 +11,24 @@ header {
 
 }
 
+.line-at-top {
+  margin-top: 0px;
+  border-top: 4px solid red;
+  border-bottom: 4px solid red;
+  margin-left: 8em;
+  width: 75%;
+}
+
 .primaryNavBar ul {
-  list-style-type: none;
   display: flex;
+  list-style: none;
   flex-direction: row;
   justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #55595C;
 }
 
 .logo {
@@ -24,14 +37,15 @@ header {
   margin-right: 25px;
 }
 
-.line-at-top {
-  border-top: 3px solid red;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 25%;
-  margin-left:25%;
+.image-grid-container {
+  display: flex;
+  align-content: center;
+  width: 50%;
+  height: 300px;
+  margin-left: 8em;
+  padding-left: 8em;
 }
 
-.cat-one {
-
+.img {
+  border: 3px solid white;
 }
