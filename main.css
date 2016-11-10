@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: sans-serif, arial;
+  font-family: 'Lora', serif;
   color: #343333;
   background-color: white;
 }
@@ -9,6 +9,25 @@ header {
   background-color: #f3f3f3;
   padding-bottom: 5px;
 
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h1, p {
+  font-family: sans-serif;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 0px;
+  font-size: 18px;
+}
+
+.body {
+  text-align: center;
 }
 
 .line-at-top {
@@ -21,9 +40,17 @@ header {
 
 .primaryNavBar ul {
   display: flex;
+}
+
+.home {
+  color: red;
+}
+
+li {
   list-style: none;
-  flex-direction: row;
-  justify-content: space-around;
+  text-decoration: none;
+  padding-right: 2em;
+  font-size: 18px;
 }
 
 a {
@@ -32,9 +59,10 @@ a {
 }
 
 .logo {
-  width: 90px;
+  width: 7em;
   height: 20px;
-  margin-right: 25px;
+  margin-left: 4em;
+  padding-right: 6em;
 }
 
 .image-grid-container {
@@ -44,8 +72,18 @@ a {
   height: 300px;
   margin-left: 8em;
   padding-left: 8em;
+  margin-top: 1.8em;
 }
 
 .img {
-  border: 3px solid white;
+  border: 5px solid white;
+}
+
+.search {
+  padding-left: 20em;
+}
+
+.searchButton {
+  width: 1em;
+  height: 1em;
 }
