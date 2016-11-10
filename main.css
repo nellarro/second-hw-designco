@@ -28,6 +28,7 @@ p {
 
 .body {
   text-align: center;
+  padding-bottom: 4em;
 }
 
 .line-at-top {
@@ -67,7 +68,7 @@ a {
 
 .image-grid-container {
   display: flex;
-  align-content: center;
+  align-items: center;
   width: 50%;
   height: 300px;
   margin-left: 8em;
@@ -86,4 +87,17 @@ a {
 .searchButton {
   width: 1em;
   height: 1em;
+}
+
+.new {
+  display: flex;
+  padding-top: 6em;
+  flex-direction: column;
+  margin-left: 8em;
+}
+
+.new h4 {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
 }
