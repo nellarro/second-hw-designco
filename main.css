@@ -8,7 +8,7 @@ body {
 header {
   background-color: #f3f3f3;
   padding-bottom: 5px;
-
+  height: 5.5em;
 }
 
 h1 {
@@ -41,6 +41,7 @@ p {
 
 .primaryNavBar ul {
   display: flex;
+  padding-top: 20px;
 }
 
 .home {
@@ -81,7 +82,7 @@ a {
 }
 
 .search {
-  padding-left: 20em;
+  padding-left: 16.5em;
 }
 
 .searchButton {
@@ -89,15 +90,31 @@ a {
   height: 1em;
 }
 
-.new {
+.bottom {
   display: flex;
+}
+
+.new, .lorem {
   padding-top: 6em;
   flex-direction: column;
+  font-size: 14px;
+}
+
+.new {
+  flex-grow: 3;
   margin-left: 8em;
+  margin-right: 1em;
 }
 
 .new h4 {
   color: red;
   font-weight: bold;
-  font-size: 18px;
+}
+
+.lorem {
+  margin-right: 8em;
+}
+
+.lorem p {
+  align-content: space-around;
 }
